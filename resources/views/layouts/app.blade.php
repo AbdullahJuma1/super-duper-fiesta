@@ -21,7 +21,7 @@
            <a href="{{ route('dashboard') }}" class="p-3">Dashboard</a>
      </li>
        <li>
-           <a href="" class="p-3">Post</a>
+           <a href="{{ route('posts') }}" class="p-3">Post</a>
      </li>
 
 
@@ -32,7 +32,7 @@
 
 <li>
   
-           <a href="" class="p-3">Abdullah Juma</a>
+         <a href="" class="p-3">{{auth()->user()->name}}</a>
      </li>
 
       <li>
